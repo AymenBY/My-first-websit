@@ -28,7 +28,7 @@
             </nav>
     </header>
     <h1>Contactez-nous</h1>
-    <form>
+    <form method="" action="">
         <label id="civ">Civilité</label>
         <label>Mme</label><input type="radio" name="genre">
         <label>M.</label><input type="radio" name="genre"><br>
@@ -39,12 +39,14 @@
         <label for="email">Email (obligatoire)</label><br>
         <input type="email" id="email" placeholder="prenom.nom@mail.com" required size="25"><br>
         <label for="tel">Téléphone</label><br>
-        <input type="text" id="tel" placeholder="(xxx) xx xx xx" required size="25"><br>
+        <input type="tel" id="tel" placeholder="(xxx) xx xx xx" required size="25"><br>
         <label for="objet">Objet du message</label><br>
-        <input type="tex" id="objet"><br>
+        <input type="tex" id="objet" size="25"><br>
         <textarea  id="msg" cols="50" rows="10" placeholder="Votre message"></textarea><br>
         <input type="submit" value="Envoyer">
     </form>
     </div>
 </body>
 </html>
+
+<!--changer l'input du tel avec type tel-->
