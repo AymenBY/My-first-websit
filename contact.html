@@ -29,20 +29,26 @@
     </header>
     <h1>Contactez-nous</h1>
     <form method="" action="">
-        <label id="civ">Civilité</label>
-        <label>Mme</label><input type="radio" name="genre">
-        <label>M.</label><input type="radio" name="genre"><br>
-        <label for="nom" id="lnom">Nom (obligatoire)</label><br>
-        <input type="text" id="nom" placeholder="Saisissez votre nom" required size="25"><br>
-        <label for="prenom">Prénom (obligatoire)</label><br>
-        <input type="text" id="prenom" placeholder="Saisissez votre prénom" required size="25"><br>
-        <label for="email">Email (obligatoire)</label><br>
-        <input type="email" id="email" placeholder="prenom.nom@mail.com" required size="25"><br>
-        <label for="tel">Téléphone</label><br>
-        <input type="tel" id="tel" placeholder="(xxx) xx xx xx" required size="25"><br>
-        <label for="objet">Objet du message</label><br>
-        <input type="tex" id="objet" size="25"><br>
-        <textarea  id="msg" cols="50" rows="10" placeholder="Votre message"></textarea><br>
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label id="civ">Civilité</label>
+            <label>Mme</label><input type="radio" name="genre">
+            <label>M.</label><input type="radio" name="genre"><br>
+            <label for="nom" id="lnom">Nom (obligatoire)</label><br>
+            <input type="text" id="nom" placeholder="Saisissez votre nom" required size="25"><br>
+            <label for="prenom">Prénom (obligatoire)</label><br>
+            <input type="text" id="prenom" placeholder="Saisissez votre prénom" required size="25"><br>
+            <label for="email">Email (obligatoire)</label><br>
+            <input type="email" id="email" placeholder="prenom.nom@mail.com" required size="25"><br>
+            <label for="tel">Téléphone</label><br>
+            <input type="tel" id="tel" placeholder="(xxx) xx xx xx" required size="25"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Votre message</legend>
+            <label for="objet">Objet du message</label><br>
+            <input type="tex" id="objet" size="25"><br>
+            <textarea  id="msg" cols="50" rows="10" placeholder="Votre message"></textarea><br>
+        </fieldset>
         <input type="submit" value="Envoyer">
     </form>
     </div>
