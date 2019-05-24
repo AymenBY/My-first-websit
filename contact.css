@@ -1,0 +1,26 @@
+body
+{
+    background-image: url(images/fond_jaune.png);
+    font-family: Helvetica, sans-serif; 
+    color: #181818;
+}
+form
+{
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+input
+{
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+#civ
+{
+    margin-right: 25px;
+}
+

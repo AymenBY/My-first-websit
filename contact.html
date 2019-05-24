@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="bloc_page">
+    <header>
+            <div id="titre_principal">
+                <div id="logo">
+                    <img src="images/zozor_logo.png" alt="photo_du_zozor">
+                    <h1>Zozor</h1>
+                </div>
+                <h2>Carnets de voyage</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <h1>Contactez-nous</h1>
+    <form>
+        <label id="civ">Civilité</label>
+        <label>Mme</label><input type="radio" name="genre">
+        <label>M.</label><input type="radio" name="genre"><br>
+        <label for="nom" id="lnom">Nom (obligatoire)</label><br>
+        <input type="text" id="nom" placeholder="Saisissez votre nom" required size="25"><br>
+        <label for="prenom">Prénom (obligatoire)</label><br>
+        <input type="text" id="prenom" placeholder="Saisissez votre prénom" required size="25"><br>
+        <label for="email">Email (obligatoire)</label><br>
+        <input type="email" id="email" placeholder="prenom.nom@mail.com" required size="25"><br>
+        <label for="tel">Téléphone</label><br>
+        <input type="text" id="tel" placeholder="(xxx) xx xx xx" required size="25"><br>
+        <label for="objet">Objet du message</label><br>
+        <input type="tex" id="objet"><br>
+        <textarea  id="msg" cols="50" rows="10" placeholder="Votre message"></textarea><br>
+        <input type="submit" value="Envoyer">
+    </form>
+    </div>
+</body>
+</html>
